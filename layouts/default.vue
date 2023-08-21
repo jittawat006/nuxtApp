@@ -1,8 +1,7 @@
 <template>
     <div>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg "  style="background-color: rgb(51, 51, 51);" >
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Navbar</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -11,16 +10,19 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="/">Home</a>
+                            <a class="nav-link active  text-white" aria-current="page" href="/">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/about">About us</a>
+                            <a class="nav-link  text-white" href="/about">About us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/limitMessage">Limit Message</a>
+                            <a class="nav-link  text-white" href="/limitMessage">Limit Message</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/previewImage">Limit Message</a>
+                            <a class="nav-link  text-white" href="/previewImage">Preview Image</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link  text-white" href="/product">product</a>
                         </li>
                     </ul>
                     <form class="d-flex" role="search">
@@ -31,16 +33,8 @@
             </div>
         </nav>
         <footer class="bg-dark text-center text-white">
-            <div class="container p-4 pb-0">
-                <h4 class="mb-1">{{ name }}</h4>
-                <section class="mb-4 d-flex">
-                    <p>{{ address }}</p>
-                    <p>{{ email }}</p>
-                    <p>jittawat wahanarat</p>
-                </section>
-            </div>
-            <div class="text-center p-3" style="background-color: rgb(255, 164, 36);">
-                © 2023 SiteDB
+            <div class="text-center p-3" style="background-color: rgb(51, 51, 51);">
+                © 2023 SiteDB-Jittawat
                 <a class="text-white" href="#"></a>
             </div>
         </footer>
